@@ -26,14 +26,14 @@ const Sidebar = () => {
         </NavLink>
     </nav>
 
-    <ul>
-        <li>
-            <a target = "_blank" rel="noreferrer" href="https://www.linkedin.com/in/harieshan/">
+    <ul className='socialsul'>
+        <li className='socialsli'>
+            <a className='socialsa'target = "_blank" rel="noreferrer" href="https://www.linkedin.com/in/harieshan/">
                 <FontAwesomeIcon icon={faLinkedin} color="#4d4de"/>
             </a>
         </li>
-        <li>
-            <a target = "_blank" rel="noreferrer" href="https://github.com/harieshan-e">
+        <li className='socialsli'>
+            <a className='socialsa' target = "_blank" rel="noreferrer" href="https://github.com/harieshan-e">
                 <FontAwesomeIcon icon={faGithub} color="#4d4de"/>
             </a>
         </li>
